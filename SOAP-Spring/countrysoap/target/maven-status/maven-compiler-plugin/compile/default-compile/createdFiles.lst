@@ -1,0 +1,10 @@
+io/spring/guides/gs_producing_web_service/GetCountryResponse.class
+io/spring/guides/gs_producing_web_service/GetCountryRequest.class
+com/hloverflow/countrysoap/CountryEndpoint.class
+io/spring/guides/gs_producing_web_service/package-info.class
+io/spring/guides/gs_producing_web_service/ObjectFactory.class
+com/hloverflow/countrysoap/ProducingWebServiceApplication.class
+com/hloverflow/countrysoap/CountryRepository.class
+com/hloverflow/countrysoap/WebServiceConfig.class
+io/spring/guides/gs_producing_web_service/Currency.class
+io/spring/guides/gs_producing_web_service/Country.class

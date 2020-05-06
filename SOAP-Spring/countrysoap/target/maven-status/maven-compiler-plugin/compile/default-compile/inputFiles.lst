@@ -1,0 +1,10 @@
+/root/Documents/SOAP/SOAP-Spring/countrysoap/src/main/java/com/hloverflow/countrysoap/CountryEndpoint.java
+/root/Documents/SOAP/SOAP-Spring/countrysoap/src/main/java/com/hloverflow/countrysoap/ProducingWebServiceApplication.java
+/root/Documents/SOAP/SOAP-Spring/countrysoap/src/main/java/com/hloverflow/countrysoap/CountryRepository.java
+/root/Documents/SOAP/SOAP-Spring/countrysoap/target/generated-sources/jaxb/io/spring/guides/gs_producing_web_service/package-info.java
+/root/Documents/SOAP/SOAP-Spring/countrysoap/src/main/java/com/hloverflow/countrysoap/WebServiceConfig.java
+/root/Documents/SOAP/SOAP-Spring/countrysoap/target/generated-sources/jaxb/io/spring/guides/gs_producing_web_service/ObjectFactory.java
+/root/Documents/SOAP/SOAP-Spring/countrysoap/target/generated-sources/jaxb/io/spring/guides/gs_producing_web_service/Country.java
+/root/Documents/SOAP/SOAP-Spring/countrysoap/target/generated-sources/jaxb/io/spring/guides/gs_producing_web_service/GetCountryRequest.java
+/root/Documents/SOAP/SOAP-Spring/countrysoap/target/generated-sources/jaxb/io/spring/guides/gs_producing_web_service/GetCountryResponse.java
+/root/Documents/SOAP/SOAP-Spring/countrysoap/target/generated-sources/jaxb/io/spring/guides/gs_producing_web_service/Currency.java
