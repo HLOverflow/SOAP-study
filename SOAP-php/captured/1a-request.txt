@@ -1,0 +1,10 @@
+POST / HTTP/1.1
+Host: 172.17.0.2
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/7.0.33-0ubuntu0.16.04.14
+Content-Type: text/xml; charset=utf-8
+SOAPAction: "http://172.17.0.2#getMessage"
+Content-Length: 387
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://172.17.0.2" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:getMessage/></SOAP-ENV:Body></SOAP-ENV:Envelope>
