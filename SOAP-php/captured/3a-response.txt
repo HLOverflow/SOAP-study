@@ -1,0 +1,9 @@
+HTTP/1.1 200 OK
+Host: 172.17.0.2
+Connection: close
+X-Powered-By: PHP/7.0.33-0ubuntu0.16.04.14
+Content-Type: text/xml; charset=utf-8
+Content-Length: 522
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns1="http://localhost/test" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/"><SOAP-ENV:Body><ns1:sayHelloResponse><return xsi:type="xsd:string">Hello,John</return></ns1:sayHelloResponse></SOAP-ENV:Body></SOAP-ENV:Envelope>

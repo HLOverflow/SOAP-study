@@ -1,0 +1,9 @@
+POST / HTTP/1.1
+Host: 172.17.0.2
+Connection: Keep-Alive
+User-Agent: PHP-SOAP/7.0.33-0ubuntu0.16.04.14
+Content-Type: application/soap+xml; charset=utf-8; action="http://172.17.0.2#sayHello"
+Content-Length: 455
+
+<?xml version="1.0" encoding="UTF-8"?>
+<env:Envelope xmlns:env="http://www.w3.org/2003/05/soap-envelope" xmlns:ns1="http://172.17.0.2" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:enc="http://www.w3.org/2003/05/soap-encoding"><env:Body><ns1:sayHello env:encodingStyle="http://www.w3.org/2003/05/soap-encoding"><param0 xsi:type="xsd:string">John</param0></ns1:sayHello></env:Body></env:Envelope>

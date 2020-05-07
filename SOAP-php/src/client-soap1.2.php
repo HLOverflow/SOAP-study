@@ -10,4 +10,5 @@ $options= array(
 $client=new SoapClient(NULL,$options);
 echo $client->getMessage();  //Hello,World!
 echo $client->addNumbers(3,5); //  8
+echo $client->sayHello("John"); //Hello, John
 ?>

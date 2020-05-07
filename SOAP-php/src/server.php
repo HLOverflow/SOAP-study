@@ -13,6 +13,10 @@ class MySoapServer
   {
     return $num1+$num2;
   }
+
+  public function sayHello($name){
+    return 'Hello,' . $name;
+  }
 }
 
 $options= array('uri'=>'http://localhost/test');

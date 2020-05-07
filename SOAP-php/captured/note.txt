@@ -1,0 +1,10 @@
+SOAP 1.1 (capture-soap1.1.pcap)
+- getMessage()		client --- (1a-request.txt) ---> server --- (1a-response.txt) ---> client
+- add(3,8)		client --- (2a-request.txt) ---> server --- (2a-response.txt) ---> client
+- sayHello('John')	client --- (3a-request.txt) ---> server --- (3a-response.txt) ---> client
+
+SOAP 1.2 (capture-soap1.2.pcap)
+- getMessage()		client --- (1b-request.txt) ---> server --- (1b-response.txt) ---> client
+- add(3,8)		client --- (2b-request.txt) ---> server --- (2b-response.txt) ---> client
+- sayHello('John')	client --- (3b-request.txt) ---> server --- (3b-response.txt) ---> client
+
