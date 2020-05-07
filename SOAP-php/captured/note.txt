@@ -8,3 +8,10 @@ SOAP 1.2 (capture-soap1.2.pcap)
 - add(3,8)		client --- (2b-request.txt) ---> server --- (2b-response.txt) ---> client
 - sayHello('John')	client --- (3b-request.txt) ---> server --- (3b-response.txt) ---> client
 
+Attempting Bad XXE failed
+- bad-request.txt
+- bad-request-response.txt
+
+# curl http://172.17.0.2/\?wsdl
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"><SOAP-ENV:Body><SOAP-ENV:Fault><faultcode>SOAP-ENV:Server</faultcode><faultstring>WSDL generation is not supported yet</faultstring></SOAP-ENV:Fault></SOAP-ENV:Body></SOAP-ENV:Envelope>
